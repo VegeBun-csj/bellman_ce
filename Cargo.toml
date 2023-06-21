@@ -22,7 +22,7 @@ byteorder = "1"
 num_cpus = "1"
 serde = {version = "1", features = ["derive", "rc"]}
 
-pairing = { git = "https://github.com/VegeBun-csj/pairing.git" }
+pairing_ce = { git = "https://github.com/VegeBun-csj/pairing.git" }
 # pairing = {package = "pairing_ce", path = "../pairing"}
 
 futures = {package = "futures", version = "0.3", default_features = false, features = ["executor"]}
